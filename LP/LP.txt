@@ -1,0 +1,84 @@
+-- Customer Obsession --
+-- Who was your most difficult customer?
+-- Tell me about a time when you didn't meet customer expectations. What happened, and how did you deal with the situation?
+-- How do you go about prioritizing customer needs when you are dealing with a large number of customers?
+
+
+-- Ownership --
+-- Tell me about a time when you took on a task that was beyond your job responsibilities.
+-- Tell me about a time when you had to work on a task with unclear responsibilities.
+-- Tell me about a time when you showed an initiative to work on a challenging project.
+
+-- Invent and Simplify --
+-- Describe a time when you found a simple solution to a complex problem.
+-- Tell me about a time when you invented something.
+-- Tell me about a time when you tried to simplify a process but failed. What would you have done differently?
+
+-- Are Right, a Lot --
+-- Tell me about a time when you effectively used your judgment to solve a problem.
+-- Tell me about a time when you had to work with insufficient information or incomplete data.
+-- Tell me about a time when you were wrong.
+
+-- Learn and Be Curious --
+-- Tell me about an important lesson you learned over the past year.
+-- Tell me about a situation or experience you went through that changed your way of thinking.
+-- Tell me about a time when you made a smarter decision with the help of your curiosity.
+
+-- Hire and Develop the Best --
+-- Tell me about a time when you mentored someone.
+-- Tell me about a time when you made a bad hire. When did you figure it out, and what did you do?
+-- What qualities do you look for in potential candidates when making hiring decisions?
+
+-- Insist on the Highest Standards --
+-- Tell me about a time when you were dissatisfied with the quality of a project at work. What did you do to improve it?
+-- Tell me about a time when you motivated others to go above and beyond.
+-- Describe a situation when you couldn't meet your standards and expectations on a task.
+
+-- Think Big --
+-- Tell me about your most significant professional achievement.
+-- Tell me about a time when you had to make a bold and challenging decision.
+-- Tell me about a time when your vision led to a great impact.
+
+-- Bias for Action --
+-- Provide an example of when you took a calculated risk.
+-- Describe a situation when you took the initiative to correct a problem or a mistake rather than waiting for someone else to do it.
+-- Tell me about a time when you required some information from somebody else, but they weren't responsive. What did you do?
+
+-- Frugality --
+-- Describe a time when you had to rely on yourself to complete a task.
+-- Tell me about a time when you had to be frugal.
+-- Tell me about a time when you had to rely on yourself to complete a project.
+
+-- Earn Trust --
+-- Describe a time when you had to speak up in a difficult or uncomfortable environment.
+-- What would you do to gain the trust of your team?
+-- Tell me about a time when you had to tell a harsh truth to someone.
+
+-- Dive Deep --
+-- Tell me about the most complicated problem you've had to deal with.
+-- Give me an example of when you utilized in-depth data to develop a solution.
+-- Tell me about something that you have learned in your role.
+
+-- Have Backbone; Disagree and Commit --
+-- Describe a time when you disagreed with the approach of a team member. What did you do?
+-- Give me an example of something you believe in that nobody else does.
+-- Tell me about an unpopular decision of yours.
+
+-- Deliver Results --
+-- Describe the most challenging situation in your life and how you handled it.
+-- Give an example of a time when you had to handle a variety of assignments. What was the outcome?
+-- Tell me about a time when your team gave up on something, but you pushed them to deliver results.
+
+-- Strive to be Earth's Best Employer --
+-- When was the last time you built a team? What did you consider when assembling it together?
+-- Give an example of a time when you developed the careers of people on your team.
+-- How have you managed varying strengths and weaknesses of members in your team?
+
+-- Success and Scale Bring Broad Responsibility --
+-- Describe a moral or ethical dilemma you've faced in the workplace. How did you handle it?
+-- Give an example of a time when you've left a project in a better position than you've found it.
+-- What's the largest impact you've had on your environment?
+
+
+-- Where do you see yourself in 5 years?
+While starting my career there was a senior person who named X and he was technically so strong and answer all the domain questions. "In five years, I aspire to become a highly skilled and reliable technical expert, much like a senior colleague I admired earlier in my career. He was not only technically proficient and well-versed in domain knowledge but also had the ability to simplify complex concepts for both technical and non-technical team members. His approachable nature, detailed documentation, and insightful code reviews significantly contributed to the team's learning and growth. My goal is to build a similar reputation within my organization—being the go-to person for technical and domain-related challenges, mentoring others effectively, and continuously advancing my knowledge to drive impactful contributions."
