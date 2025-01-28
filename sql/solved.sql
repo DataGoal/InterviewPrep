@@ -382,6 +382,18 @@ GROUP BY 1, 2
 ORDER BY 3 DESC
 LIMIT 1;
 
+SELECT actor1, actor2, COUNT(*) AS movie_count
+FROM (
+    SELECT 
+        CASE WHEN actor1 < actor2 THEN actor1 ELSE actor2 END AS actor1,
+        CASE WHEN actor1 < actor2 THEN actor2 ELSE actor1 END AS actor2
+    FROM movie_data
+) paired_actors
+GROUP BY actor1, actor2
+ORDER BY movie_count DESC
+LIMIT 1;
+
+
 /*
 Q: Find top 2 teams who won maximum matches consecutively (in consecutive years).
 
