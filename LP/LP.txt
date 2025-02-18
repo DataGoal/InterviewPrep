@@ -81,4 +81,237 @@
 
 
 -- Where do you see yourself in 5 years?
-While starting my career there was a senior person who named X and he was technically so strong and answer all the domain questions. "In five years, I aspire to become a highly skilled and reliable technical expert, much like a senior colleague I admired earlier in my career. He was not only technically proficient and well-versed in domain knowledge but also had the ability to simplify complex concepts for both technical and non-technical team members. His approachable nature, detailed documentation, and insightful code reviews significantly contributed to the team's learning and growth. My goal is to build a similar reputation within my organization—being the go-to person for technical and domain-related challenges, mentoring others effectively, and continuously advancing my knowledge to drive impactful contributions."
+-- What's you long time goal
+While starting my career there was a senior person who named X and he was technically so strong and answer all the domain questions. In five years, I aspire to become a highly skilled and reliable technical expert, much like a senior colleague I admired earlier in my career. He was not only technically proficient and well-versed in domain knowledge but also had the ability to simplify complex concepts for both technical and non-technical team members. His approachable nature, detailed documentation, and insightful code reviews significantly contributed to the team's learning and growth. My goal is to build a similar reputation within my organization—being the go-to person for technical and domain-related challenges, mentoring others effectively, and continuously advancing my knowledge to drive impactful contributions.
+
+------------------
+Self-awarness & personal growth:
+Tell me about yourself
+I’m a Data Engineer with 7+ years of experience in designing and implementing end-to-end data solutions that empower organizations to make data-driven decisions. My expertise spans building secure, scalable, and cost-effective data ecosystems—from data warehousing and real-time processing to BI systems.
+
+I specialize in collaborating with stakeholders to translate business requirements into reliable technical architectures, ensuring alignment with performance, availability, and governance standards. I have designed data models and persistence layers that balance flexibility with stability while implementing rigorous data validation frameworks to guarantee completeness and accuracy.
+
+A key strength is my ability to bridge data engineering and business needs. I have worked on solutions that integrate distributed storage, optimized ETL workflows, and Spark to deliver actionable insights. I also prioritize security and cost-efficiency, whether through access controls, infrastructure optimization, or modernizing legacy systems with cloud-native technologies.
+
+Recently, I’ve been focused on real-time data pipelines and automated deployment practices to streamline data operations. What excites me most is solving complex challenges—like balancing scalability with governance or enabling stakeholders to trust and leverage data effectively.
+
+I’m eager to bring my experience to your team and contribute to building secure, robust, and scalable data solutions that drive impactful decisions.
+
+How do you handle failure?
+P.R.E.P
+**Pinpoint:**  
+Early in my career, I was assigned the task of building a basic HTML webpage, a skill I was not proficient in. As a result, I struggled to deliver it on time.  
+
+**Reflect:**  
+Initially, I felt overwhelmed, but I took a step back to analyze why it took me longer than expected. I realized that I was unprepared and did not have a clear understanding of the project requirements.  
+
+**Explain:**  
+To address this, I started openly communicating with my lead to clarify requirements. Additionally, I took an HTML course on Udemy to strengthen my knowledge of HTML and CSS.  
+
+**Plan:**  
+This experience taught me the importance of clear communication and preparation. Now, I approach my tasks with a structured and proactive mindset, ensuring I gather all necessary details before starting any work.
+
+P.R.E.P
+**Pinpoint:**  
+In a previous project, I was responsible for deploying migration code that unexpectedly failed in production due to schema mismatches. This caused delays in data availability, impacting the parallel run.  
+
+**Reflect:**  
+Initially, I felt overwhelmed, but I took a step back to analyze what went wrong. I realized that the schema casting function encountered new data types in production that were not accounted for in lower environments.  
+
+**Explain:**  
+To address this, I collaborated with my team to collect all table schemas from production, identify unaccounted data types, and update the casting function to handle them appropriately.  
+
+**Plan:**  
+This experience taught me the importance of thorough validation and environment parity. Now, I ensure schema consistency by implementing automated schema checks across environments, conducting rigorous data profiling before migrations, and introducing fallback mechanisms to handle unexpected data types.
+
+What are your strengths?
+C.A.S.E
+**Cite:**  
+One of my key strengths is problem-solving.  
+
+**Amplify:**  
+For example, at my last job, our team faced a challenge in securely storing the Databricks API token for accessing services without exposing it. I took on this task to find a secure and efficient solution.  
+
+**Show Relevance:**  
+Since all our Databricks Spark jobs were running through Airflow, I created a standalone DAG to store the Databricks API token in Airflow Variables as key-value pairs. I also restricted access to the Airflow Variables tab for all users, ensuring only the jobs could retrieve the token securely. This approach allowed all Databricks jobs to read the token without compromising security.  
+
+**End:**  
+This experience highlights my ability to solve API access challenges by leveraging Airflow expertise, ensuring security, reduced manual intrevention and delivering a seamless solution for the team.
+
+C.A.S.E
+**Cite:**  
+One of my key strengths is strategic decision-making and optimizing solutions for efficiency and cost-effectiveness.  
+
+**Amplify:**  
+For example, we faced a situation where we needed to define dependencies between ETL jobs, and the team was considering different approaches. I proposed a comparison between using Airflow's ExternalTaskSensor and AWS Step Functions.  
+
+**Show Relevance:**  
+I analyzed both solutions, highlighting their implementation complexity and cost implications. I demonstrated how we could leverage AWS Step Functions’ free tier, making it a more cost-effective and maintainable option compared to Airflow sensors, which continuously run and incur resource costs. My insights helped the team choose a more scalable and efficient approach.  
+
+**End:**  
+This experience showcases my ability to evaluate multiple solutions, balance cost and maintainability, and guide the team toward an optimal decision that improved efficiency and reduced operational costs.
+
+What are your weakness?
+C.A.R.E
+**Cite:**  
+I tend to be overly critical of myself.  
+
+**Acknowledge:**  
+In my previous role, I often spent extra time double-checking and triple-checking my work, which affected my productivity. For example, I used to perform multiple unit tests with different parameters, even when a reasonable level of testing was already achieved.  
+
+**Relay:**  
+I realized this was an issue and worked on balancing my desire for perfection with efficiency. I started setting more realistic standards and deadlines, focusing on prioritizing tasks that were more prone to errors and had a higher impact.  
+
+**End:**  
+This approach has allowed me to maintain high-quality work without compromising productivity, and I continue to refine my ability to balance thoroughness with efficiency.
+
+C.A.R.E
+Cite:
+I sometimes struggle with assessing tasks effectively.
+
+Acknowledge:
+In my previous role, I was assigned the task of implementing data quality checks for a new database source system called MongoDB. At the time, I had no prior experience working with JSON files or NoSQL databases.
+
+Relay:
+Without fully realizing the complexity of the task, I set an overly short timeline for completing the implementation of the DQ checks, which led to some initial setbacks like taking more time to learn about JSON and MongoDB.
+
+End:
+This experience taught me the importance of understanding the scope of tasks and recognizing when to seek help or delegate. Since then, I've become more mindful of timeframes and more proactive in involving team members with relevant expertise to ensure high-quality results within realistic timelines. 
+
+How do you prioritize your work?
+T.I.M.E
+Take stock:
+To start, I take stock of all the tasks at handle
+Identify:
+I identify what's urgent and important, and then create a mental map of the days activities like bug fixes, coding, optimizations
+Mental map:
+I divide the tasks in 4 quadrants. Urgent & important, important but not urgent, urgent but not important, and neither. This helps me focus on high priority tasks first
+Execute:
+I also build in time for unforseen interruptions and review my priorities regulalry to adjust as needed. This menthod ensures that I stay organised, meet deadlines, and maintin a high standard of work.
+
+What motivates you?
+D.R.I.P
+Driver:
+The main driver for me is achieving tangible results.
+
+Rewarding:
+It is incredibly rewarding to see a project come to fruition after hard work and dedication.
+
+Iterative:
+The excitement for me lies in the iterative process of problem-solving, where each step brings me closer to a solution.
+
+Propels:
+This sense of accomplishment propels me to take on new challenges. For instance, seeing data metrics on BI dashboards and how they help the business make vital decisions motivates me to continue improving and innovating.
+
+How do you handle work life balance?
+F.A.D.E
+Firm:
+I first establish firm boundaries between work and personal time
+Allocate:
+I allocate specific times for family and self-care, ensuring that I have regular breaks and downtime
+Decompress:
+After a busy work schedule. I make sure to decompress effectively, whether through exercise, hobbies, or simpley relaxing
+Evaluate:
+Finally, I evaluate my routine frequently to ensure that I am not veering too far off balance. This approch helps me maintin my well-being and productivity, allowing me to give my best bosth at work and in my personal life.
+
+What are your career goals?
+S.T.A.R
+Situation:
+When I started my career, there was a senior colleague, X, who was technically exceptional and always had the answers to domain-related questions.
+
+Task:
+I aspired to become a highly skilled and reliable technical expert, similar to X, who was well-versed in both technical and domain knowledge.
+
+Action:
+To reach this goal, I focused on strengthening my technical expertise, understanding the domain in depth, and learning from my colleagues. I also made it a point to document processes and contribute to insightful code reviews, aiming to simplify complex concepts for both technical and non-technical team members, just as X did.
+
+Result:
+As a result, I became a trusted resource within my team, helping others solve technical challenges and guiding them with documentation and mentoring. My goal now is to continue advancing my expertise, building a reputation as the go-to person for technical and domain challenges, and fostering team growth.
+
+Adaptablity & Stress Management
+How do handle stressful situation?
+S.T.A.R
+Situation:
+During a critical ETL pipeline deployment in Airflow, we encountered a major issue where the scheduled jobs were consistently failing to start on time, causing significant delays in data processing. This was especially stressful as it was the end of the quarter, and the data was needed for business reports that would drive important strategic decisions. The delays caused panic within the team, as it threatened to impact decision-making, and the pressure was mounting to resolve the issue quickly.
+
+Task:
+My task was to quickly investigate and fix the issue, ensuring that the jobs triggered on time to prevent further delays in reporting, while managing the increased stress and tight deadlines.
+
+Action:
+I remained calm and methodical, immediately diving into the Airflow logs and identifying that the issue stemmed from an incorrect start_date and misconfigured catchup settings, which caused the jobs to be misaligned with the schedule. With time running out, I corrected the configurations, disabled the catchup setting, and optimized task dependencies to prevent cascading delays. I also implemented custom alerts to monitor future delays and added retry logic to ensure job execution stability.
+
+Result:
+The issue was resolved under pressure, and the ETL pipeline resumed running on schedule. The reports were delivered on time, allowing the business to make critical decisions without further disruption. The proactive alerting system and optimization of the pipeline ensured smoother operation in the future, helping the team manage stress better in subsequent projects.
+
+
+Describe a time you had to adapt to a new situation?
+S.T.A.R
+Situation:
+Shortly after joining my new job, the company underwent a major reorganization, and the scope of my responsibilities changed. I was originally tasked with rewriting SQL Server stored procedures, but soon after, I was reassigned to the data ingestion team, where my focus shifted to ingesting data from multiple sources.
+
+Task:
+I needed to quickly adapt to this new role and acquire the necessary knowledge and skills to handle data ingestion processes effectively, as it was a completely different area from what I had originally planned to work on.
+
+Action:
+To adapt, I immersed myself in learning the intricacies of data ingestion, particularly around integrating data from various sources like APIs, databases, and flat files. I took the initiative to learn new tools and technologies, such as Apache Kafka for stream processing and Apache Nifi for data flow management. I also collaborated closely with the team to understand existing workflows and helped troubleshoot ingestion issues.
+
+Result:
+Within a short period, I became proficient in the new domain, successfully managing the data ingestion pipeline. This not only allowed me to meet the team's requirements but also helped streamline the data processing workflows, improving overall efficiency. My ability to quickly adapt and learn in a new area gained the trust of my colleagues and demonstrated my flexibility in handling shifting priorities.
+
+
+Have you ever had to make a difficult decision quickly?
+S.T.A.R
+Situation:
+In my previous role, we were approching a project deadline and were at risk of not meeting it. Performing incremental load immediatley after historcal load
+Task:
+I had to decide whether to request an extension for incremental load or cu short for next release
+Action:
+I choose to do incremental and then history load by filtering only avaialble PK in icnremental data
+Result:
+How do you prioritize when everything is important?
+S.T.A.R
+Situation:
+Task:
+Action:
+Result:
+What do you do to manage stress?
+Can you describe a time you had to learn a new skill?
+How do ypu adapt to new technology?
+Have you ever managed a cisis?
+Describe your experience with team collaboration?
+Tell me about a time you had a conflic with a coworker
+Have you ever led a team?
+How do you handle feedback?
+What role do you usually take in a team?
+How do you contribute to team morale?
+Can you describe a time you worked on a high-performaing team?
+How do you approch team diversity?
+Descibe a complex problem you've solved?
+Tell me about a decision you made that was unpopular and how you handled it
+How do you approch problem solving?
+Have you ever had to make a decision with limited information?
+What's the most difficult decision you've had to make in the past year?
+Describe a time when you had to troubleshoot a problem?
+How do you evaluate the best solution to a problem
+Can you five an example of a time you successfully delegated?
+
+Leadership & initiative:
+How do you motivate others?
+Describe a time you took the lead on a project?
+Tell me about a time you had to delegate tasks during a high-stakes project
+Have you ever mentored someone?
+Tell me about a change you initiated
+How do you prioritize your tasks and projects
+Can you provide an example of when you had to inspire a team under difficult circumstances?
+How do you develop leadership skills in others?
+
+Performance & Results:
+Descibe a time you exceeded perfomance expectations
+How do you measure Success in your role?
+Tell me about a project that you started and finished?
+Describe a time you had to work under a tight deadline
+How do you ensure high quality work?
+What accomppishments in your last position are you most proud of?
+Descibe a time you made a process more efficient
+How do you handle performance reviews?
+

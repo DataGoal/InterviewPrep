@@ -1,0 +1,97 @@
+Tell me about yourself
+What was the toughes challenge you have faced
+Tell me a about a time when you need to deliver disoppointing news
+Tell me a about a time when you faced conflict with team
+Tell me a about a time when you had to explain something complex
+Tell us something that is not in your CV
+Why do you want this job
+
+Tell me about yourself.
+I would describe myself industrious, technically-focused Data Engineer who has the capacity to take on a large workload a deliver everything that is expected of me to a high standard and on time. I have a track record of achievement. For EX. In my previous org. I helped the team to build a retail framework to know the consumer buying patterns for given demographical regions. I implemented the regressor/clustering DS algorithm in large-scale datasets. In my work as a Data Engineer, I heavily focus on data quality, data reliability, and usability of company data. Apart from technical Skills. I also possess excellent soft skills like open communication, technical adopt -ability, and flexibility to meet timelines.
+
+Why do you want to work here?
+I want to work in <company name> because historically you are an organization that always delivers, you always prove, and you always look to employ the brightest talent available. This means working for you I will not only get to put my skills, qualities, and experience to good use but I too will be able to carry on learning and developing in the role. I also want to work for you because having researched your products and services you never accept anything but the best. I too have high standards and I feel my drive and determination to succeed will fit in well with your organization.
+
+Integrity
+Compassion
+Relationships
+Innovation
+Performance
+
+What do you do when you are not at work?
+When not at work (or) Free time. I am either spending time with my family and friends, reading, or keeping myself fit and active. My family is very supportive and they understand how important my work is to me that means if need to do some work in the evenings or at weekends they fully understand. I like to relax by reading and I always have a good fictional book on the go. I am keen to continue becoming and developing and I enjoy self-development books. I also enjoy keeping myself fit because it not only gives me energy to work at full capacity, but also keeps my mind really positive too.
+
+FAILURES:
+Nielsen →  Object oriented way vs Functional oriented way
+Comcast →  Adding Couchbase sorce System, unable to perform DQ on unflatten JSON after sign off
+
+BEST ACHIEVEMENTS:
+Nielsen →  Able to split the topandas() to multiple fragments using ntile() convert into Spark dataframe. Resulted in a huge performance gain from 12hrs to 45 mins and minimized the memory usage as well. 
+→ Implemented the Validation job for acv file which was received from product team in multiple versions. This resulted in minimizing the no of repetitive runs. 
+COMCAST -> Implemented DQ-job-key approach instead of Config file approach. → Initiated and built a complete framework for Data Migration Utility (DMU)
+
+CONFLICTS:
+NIELSEN → Supporting multiple levels of countries like Census/Hybrid. Within Census like weekly/monthly. And in Hybrid Monthly later additional requirements came for weekly and bi-weekly in Hybrid for all product level Category data. I raised concern to product owners that the incoming data should be Streamlined and Schema (Static) Should be maintained. But the manager said It's a time-consuming process to change the source. So we built a layer in our product to handle the requirements dynamically
+COMCAST → Building CI/CD pipeline with unit test cases but with test generated data. I requested for actual prod mock data but the request was denied. So I built a python script to generate random data using actual table schema
+
+IN-DEPTH Analysis (0R) INNOVATIVE SOLUTIONS (OR) PROVE WORK:
+NIELSEN → Users were not able to view the products which didn't sell well during the promotion. Overall framework only capturing the products sold during a promotion; not Capturing products that did not sell at least once. I analyzed and built a factless table to know the unsold products during the promotion.
+COMCAST → Developed CI/CD pipeline by learning 3 new technologies like Concourse, K8S, and Docker. Implemented GIT webhook trigger, unit test cases, and auto deployment
+SCB → Developed a reconciliation report using hive queries with python script. Minimized excel manual tasks that saved time.
+COMCAST - LabWeek OpenCV which become mainstream project
+
+What diff have you made in your current team apart from regular were?
+Was leading 8 member team and creating technical JIRA stories. Enabled the developers to complete the current sprint and take the backlog story. I made sure backlog stories are always available. This made product owners to have detailed EPIC Stories with all pre-requesties.
+
+When you break the Status quo? 
+→Implemented DMU in Comcast.
+→Implemented reconciliation in SCB.
+
+Judgment to a decision when data is not available?
+Tried to predict the country by following the patterns of already released countries. We wont' have census data to determineweekly, monthly, or acv data.
+
+Tell the experience with managing mulitple prirorities and esclations?
+8 member team
+Connecting with product owners, program managers, and other stake holders
+EPIC story are defined
+From EPIC - technical story are defined
+External team depedency
+
+
+Learn and Be curious:
+COMCAST → Developed CI/CD pipeline by learning 3 new technologies like Concourse, K8S, and Docker. Implemented GIT webhook trigger, unit test cases, and auto deployment
+
+Ownership:
+NIELSEN → Supporting multiple levels of countries like Census/Hybrid. Within Census like weekly/monthly. And in Hybrid Monthly later additional requirements came for weekly and bi-weekly in Hybrid for all product level Category data. I raised concern to product owners that the incoming data should be Streamlined and Schema (Static) Should be maintained. But the manager said It's a time-consuming process to change the source. So we built a layer in our product to handle the requirements dynamically
+
+Deliver Results:
+I was working as a Developer in Standard Chartered Bank, initially, I was been part of the testing team and we were used to performing tests like whether the data from source RDBMS and mainframe systems are loaded correctly into HDFS storage layer. We were doing testings like count comparison for hourly, daily, and monthly batch runs and used to have tables like (dimension)master table and (fact)transaction tables where we used to test current and previous day counts. Our testing will be manual by querying counts of each layer putting it in excel and creating reconciliation reports. During that time I was working for the PROD L3 support team where they used to resolve lots of bugs and also do log comparisons for different jobs and they were doing those things in shell-script and python files without a lot of manual intervention. By seeing this I was intrigued to do the same in my team and started to build a python script using pandas libraries which used to connect with hive DB using pyodbc connectors and able to query the results in various layers and bring up those into a pandas data frame, once I got this inputs I have written our testing functions in python to validate the inputs and finally results were saved in excel report using openpxyl library which looks same like manual reconciliation excel report. I was able to minimize the maximum manual workload that I minimized 3 days of work into 30 mins fo work. And my python script was able to extract results from big transaction tables holding 30 lakhs records with more than 20k updates and inserts and do testing computations within minutes.
+
+During my tenure in Comcast, while working on the DQ team we are used to performing DQ checks on multiple sources and target systems, and this storage were scattered across different DB's because of this we are not able to perform the DQ checks in a more efficient way since a lot of DB connections and I/O joins were happening across the cluster. The same issue was faced across the org level since data is not available in the unified place, and they face query efficiency issues. So, I spoke with team members and other colleagues to resolve the data availability issue by building a unified DMU (Data Migration Utility) tool, shared the thought with my manager and he was very encouraging me to do the same and ask me to do lead work stream apart from my daily works. Later I gathered info about what are the storage layers which are frequently used for querying and other DQ checks and decided to migrate those to MinIO storage. I have created the Data Flow for migration and shared the same with my seniors and architecture team to receive the feedback and corrections like triggering multiple SparkSession in a single scala trigger job to achieve parallel copy. Likewise, we migrated around 30GB of data per day using the AWS-Databricks platform as run time. And also minimized the query run costs and minimized DQ run job costs by mitigating 6 jobs into a single spark DQ job which resulted to get DQ checks in 15 mins rather than waiting for 8 hours. We also built our DMU as a more custom framework and delivered it as API service so that any team can benefit from it.
+
+Bias for action:
+In Nielsen, Proceeded with the country on-boarding task without knowing weekly or monthly data
+
+Insist on highest standards:
+COMCAST -> Implemented DQ-job-key approach instead of Config file approach.
+
+Dive Deep: 
+SCB → Developed a reconciliation report using hive queries with python script. Minimized excel manual tasks that saved time.
+COMCAST - LabWeek OpenCV which become mainstream project
+
+Invent and Simplify:
+20% of Sprint workforce on stablising the code and documentation - Invented process which was followed by rest
+
+
+DMU said
+CI/CD said
+Nielsen hybrid/census country said
+Standrad chartered reconcillation said
+Nielsen Team trust said
+Comcast Labweek
+
+Comcast DQ-job-key approch
+Nielsen 20% of Sprint workforce on stablising the code and documentation - Invented process which was followed by rest
+Nielsen, Proceeded with the country on-boarding task without knowing weekly or monthly data
+Nielsen Tried to predict the country by following the patterns of already released countries. We wont' have census data to determineweekly, monthly, or acv data.
+Nielsen →  Object oriented way vs Functional oriented way
