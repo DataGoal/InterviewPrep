@@ -17,6 +17,7 @@ CREATE TABLE employees (
        REFERENCES employees(employee_id)
 );
 
+
 -- Insert sample data
 -- Hierarchy:
 -- Alice (CEO) -> Bob (VP) -> Diana (Manager) -> Eve (Employee)
