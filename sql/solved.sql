@@ -426,9 +426,10 @@ values('Seahawks','2006');
 insert into game
 values('Seahawks','2008');
 
+SELECT * FROM game;
+
 WITH CTE AS (
-SELECT team, year_won, 
-LAG(year_won) OVER(PARTITION BY team ORDER BY year_won) yer, 
+SELECT team, year_won,  
 year_won - LAG(year_won) OVER(PARTITION BY team ORDER BY year_won) sk FROM game )
 
 SELECT team, COUNT(sk) FROM cte WHERE sk = 1 GROUP BY 1 ORDER BY 2 DESC
