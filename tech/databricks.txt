@@ -1,0 +1,17 @@
+Delta table featuers:
+Time Travel:
+DESCRIBE HISTORY of table
+AS OF TIMESTAMP
+AS OF VERSION
+RESTORE TABLE commands to restore the data
+COMPACTING small files => use OPTIMIZE commands ZORDER BY column_name
+VACCUM a delta table => default retention period is 7 => no time travel
+DEEP CLONE & SHALLOW CLONE
+CTAS
+
+VIEWS:
+types => normal views, temporary (sparkSession scoped) views, global (cluster-scoped) temporary views
+
+Delta Live Tables:
+APPLY CHANGES INTO => for CDC changes
+
