@@ -1,0 +1,59 @@
+“Tell me about a pipeline you built in production and share some scenarios where things went wrong.”
+
+And suddenly, your resume isn’t enough.
+
+🔶 Real talk:  
+
+Most of candidates get filtered out , not because they don’t know tools,  
+but because they can’t explain how they used them in the real world.
+
+Here are 15 real-time, real-world questions to help you go from  
+
+❌ I studied this on YouTube  
+to  
+✅ I’ve solved this in production
+
+1. How do you design and manage a data pipeline for both batch and streaming data?  
+→ Talk about Airflow + Spark + Kafka combo, scheduling, latency trade-offs, and idempotency.
+
+2. What’s your approach to partitioning & bucketing in big data systems like Hive or Delta Lake?  
+→ Real-world examples of reducing shuffle, optimizing query performance.
+
+3. Explain backfilling and how you handled it in a production pipeline.  
+→ Airflow backfill jobs, historical data loads, and ensuring data correctness.
+
+4. How do you monitor data quality and pipeline failures?  
+→ Use cases of tools like Great Expectations, Deequ, or custom validation layers.
+
+5. Describe how you optimized a slow-performing Spark job.  
+→ Partition pruning, caching, broadcast joins - show you know the internals.
+
+6. CDC (Change Data Capture): How did you implement it and what were the challenges?  
+→ Debezium, Kafka Connect, or log-based ingestion stories.
+
+7. How do you handle PII and GDPR compliance in your data pipelines?  
+→ Masking, encryption, access control, audit logs.
+
+8. What’s your data lake governance strategy?  
+→ Data cataloging with tools like AWS Glue, Unity Catalog, or Amundsen.
+
+9. How do you ensure schema evolution without breaking downstream consumers?  
+→ Avro/Parquet with schema registry, versioning best practices.
+
+10. What’s your preferred tech stack for real-time analytics?  
+→ Kafka + Flink/Spark Structured Streaming + Druid/ClickHouse.
+
+11. How do you ensure idempotency in your pipelines?  
+→ Talk about deduplication strategies, watermarking, and replay handling.
+
+12. What’s your strategy for building slowly changing dimensions (SCD) in your ETL jobs?  
+→ SCD Type 1 vs 2, delta tables, merge statements.
+
+13. How do you containerize and deploy your data pipelines?  
+→ Docker + Kubernetes + CI/CD (e.g GitHub Actions, Jenkins).
+
+14. What’s the best way to design a data model for analytics/reporting?  
+→ Talk about dimensional modeling, star/snowflake schema, and denormalization.
+
+15. How do you handle late arriving data in streaming systems?  
+→ Watermarks, windowed aggregations, state management.
