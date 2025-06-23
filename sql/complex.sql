@@ -230,8 +230,17 @@ SELECT customer_name, category, total_amount
 FROM ranked
 WHERE rnk = 1
 
+-- +---------------+-------------+--------------+
+-- | customer_name | category    | total_amount |
+-- +---------------+-------------+--------------+
+-- | Bob           | Electronics |      2500.00 |
+-- | Bob           | Fashion     |       360.00 |
+-- | Charlie       | Furniture   |      1050.00 |
+-- +---------------+-------------+--------------+
+
 -- Find customers who have made at least one purchase from
 -- every product category available in the products table.
+
 
 SELECT o.customer_id, c.customer_name, COUNT(DISTINCT p.category) AS category_count
 FROM orders o 
